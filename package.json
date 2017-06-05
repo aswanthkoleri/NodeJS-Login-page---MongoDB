@@ -1,0 +1,22 @@
+{
+  "name": "node-authentication",
+  "main": "server.js",
+  "dependencies" : {
+    "express" : "~4.0.0",  //it is the nodeJS framework         
+    "ejs" : "~0.8.5",      //it's the template engine         
+    "mongoose" : "~3.8.1",  //Object modelling for mongoDB        
+    "passport" : "~0.1.17",  //passport thingies will help us authenticating using various methods        
+    "passport-local" : "~0.1.6",    
+    "passport-facebook" : "~1.0.2", 
+    "passport-twitter" : "~1.0.2",  
+    "passport-google-oauth" : "~0.1.5",
+    "connect-flash" : "~0.1.1", //allow us send flash data messages     
+    "bcrypt-nodejs" : "latest", //Allow us the ability to hash the password
+
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "express-session": "~1.0.0"     
+  }
+}
