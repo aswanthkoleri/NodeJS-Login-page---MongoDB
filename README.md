@@ -1,4 +1,4 @@
-# NodeJS Login page MongoDB as database 
+# NodeJS Login page using MongoDB as database 
 
 This is a simple Login page created using Nodejs and MongoDB as database.It contains a simple homeage asking the user whether he needs a login page or a sign up page.And a button for both of these pages.The webaapp is made as a part of my learning in Nodejs and will try to implement more features like facebook login,twitterlogin,google+ login, ...etc.
 
